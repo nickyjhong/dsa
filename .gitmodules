@@ -1,0 +1,6 @@
+[submodule "leetcode"]
+	path = leetcode
+	url = git@github.com:nickyjhong/leetcode.git
+[submodule "codewars"]
+	path = codewars
+	url = git@github.com:nickyjhong/codewars.git
