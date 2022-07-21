@@ -12,12 +12,12 @@
 // Time: O(sqrt(n)) - better time complexity
 // Space: O(1)
 
-const isPrime = (n) => {
-  if (n < 2) {
+const isPrime = (num) => {
+  if (num < 2) {
     return false
   }
-  for (let i = 2; i <= Math.sqrt(n); i++) {
-    if (n % i === 0) {
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) {
       return false
     }
   }
@@ -32,12 +32,12 @@ module.exports = {
 // Time: O(n) - works but slower time complexity
 // Space: O(1)
 
-// const isPrime = (n) => {
-//   if (n < 2) {
+// const isPrime = (num) => {
+//   if (num < 2) {
 //     return false
 //   }
-//   for (let i = 2; i < n; i++) {
-//     if (n % i === 0) {
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
 //       return false
 //     }
 //   }
