@@ -9,9 +9,9 @@
 // You may assume that the input string is well-formed according to the previously mentioned pattern.
 
 // n = number of groups
-// m = max number for any group
-// Time: O(nm)
-// Space: O(nm)
+// m = max number found in any group
+// Time: O(n*m)
+// Space: O(n*m)
 
 const uncompress = (str) => {
   // make str of numbers to check if str is number or letter
@@ -44,3 +44,7 @@ const uncompress = (str) => {
 module.exports = {
   uncompress,
 };
+
+/* Notes
+- Set result to array instead of string to make it truly O(n*m)
+*/
