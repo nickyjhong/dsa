@@ -8,6 +8,10 @@
 
 // You can assume that the input only contains alphabetic characters.
 
+// n = length of string
+// Time: O(n)
+// Space: O(n)
+
 const compress = (s) => {
   let result = [];
   let i = 0;
