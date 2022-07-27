@@ -33,6 +33,11 @@ const anagrams = (s1, s2) => {
   return true;
 };
 
+// Solution 2: 
+
+// Time: O(nlogn)
+// Space: O(n)
+
 // const anagrams = (s1, s2) => {
 //   const s1Sort = s1.split('').sort().join('')
 //   const s2Sort = s2.split('').sort().join('')
