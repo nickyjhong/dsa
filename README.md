@@ -1,7 +1,8 @@
-# algos
+# Data Structures and Algorithms
 
-Algo practice on
-- Leetcode
-- Codewars
-- Structy
+Javascript algorithm practice on
 - AlgoExpert
+- Codewars
+- Leetcode
+- Structy
+- [Udemy](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
