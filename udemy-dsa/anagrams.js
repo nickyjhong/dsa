@@ -6,6 +6,8 @@
 // anagram ('aaz', 'zza') // false
 // anagram ('anagram', 'nagaram') // true 
 
+// Time: O(n)
+
 function anagrams (str1, str2) {
   // if str1.length doesn't equal str2.length its false
   if (str1.length !== str2.length) return false
