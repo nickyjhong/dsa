@@ -7,6 +7,8 @@ function sameFrequency(num1, num2) {
   let numStr1 = num1.toString()
   let numStr2 = num2.toString()
 
+  if (numStr1.length !== numStr2.length) return false;
+  
   let count1 = {}
   let count2 = {}
 
