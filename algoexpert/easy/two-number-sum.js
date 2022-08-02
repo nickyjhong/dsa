@@ -10,16 +10,37 @@
 
 // Sample output: [-1, 11]
 
+
+// Time: O(n)
+// Space: O(n)
+
 function twoNumberSum(array, targetSum) {
-  for (let i = 0; i < array.length; i++) {
-    for (let j = i + 1; j < array.length; j++) {
-      if (array[i] + array[j] === targetSum) {
-        return [array[i], array[j]]
-      } 
+  const nums = {};
+  for (let num of array) {
+    const potentialMatch = targetSum - num;
+    if (potentialMatch in nums) {
+      return [potentialMatch, num];
+    } else {
+      nums[num] = true;
     }
   }
   return [];
 }
+
+
+// Time: O(n^2)
+// Space: O(1)
+
+// function twoNumberSum(array, targetSum) {
+//   for (let i = 0; i < array.length; i++) {
+//     for (let j = i + 1; j < array.length; j++) {
+//       if (array[i] + array[j] === targetSum) {
+//         return [array[i], array[j]]
+//       } 
+//     }
+//   }
+//   return [];
+// }
 
 // function twoNumberSum(array, targetSum) {
 //   let result = []
