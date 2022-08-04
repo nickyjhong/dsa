@@ -6,12 +6,28 @@
 // Output: [0,1]
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
+
+// Time: O(n)
+// Space: O(n)
+
 const twoSum = (nums, target) => {
-    for (let i = 0; i < nums.length; i++) {
-        for (let j = i + 1; j < nums.length; j++) {
-            if(nums[i] + nums[j] === target) {
-                return [i, j]
-            }
-        }
-    }
+  let hash = {};
+  for(let i = 0; i < nums.length; i++){
+    const num = target - nums[i];
+    if(typeof(hash[num]) !== 'undefined') return [hash[num], i];
+    hash[nums[i]] = i;
+  }
+   return [];
 }
+
+// Time: O(n^2)
+// Space: O(1)
+// const twoSum = (nums, target) => {
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; j < nums.length; j++) {
+//       if(nums[i] + nums[j] === target) {
+//         return [i, j]
+//       }
+//     }
+//   }
+// }
