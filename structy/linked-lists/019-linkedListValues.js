@@ -14,7 +14,9 @@
 
 // linkedListValues(a); // -> [ 'a', 'b', 'c', 'd' ]
 
-// n = # of nodes
+
+// ITERATIVE
+// n = number of nodes
 // Time: O(n)
 // Space: O(n)
 
@@ -30,6 +32,10 @@ const linkedListValues = (head) => {
 }
 
 // RECURSIVE
+// n = number of nodes
+// Time: O(n)
+// Space: O(n)
+
 const linkedListValues = (head) => {
   const result = [];
   fillResult(head, result) // mutate result array
