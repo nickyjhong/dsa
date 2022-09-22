@@ -46,10 +46,6 @@ const anagrams = (s1, s2) => {
 //   return false
 // };
 
-module.exports = {
-  anagrams,
-};
-
 /* Notes:
 - Use objects
 - Convert s1 into an object to count the number of chars

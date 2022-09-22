@@ -34,11 +34,6 @@ const compress = (s) => {
   return result.join('');
 };
 
-module.exports = {
-  compress,
-};
-
-
 /* Notes
 - Use two variables instead of 1 (aka checking if s[i] === s[i + 1]) because debugger doesnt like that
 - Number is distance between index j and i

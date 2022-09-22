@@ -19,10 +19,6 @@ const maxValue = (nums) => {
   return maximum;
 };
 
-module.exports = {
-  maxValue,
-};
-
 /* Notes
 - Set max to -Infinity to deal with negative numbers
 - For of loop iterates through elements instead of indices

@@ -24,10 +24,6 @@ const isPrime = (num) => {
   return true;
 }
 
-module.exports = {
-  isPrime,
-};
-
 // n = input numbers
 // Time: O(n) - works but slower time complexity
 // Space: O(1)

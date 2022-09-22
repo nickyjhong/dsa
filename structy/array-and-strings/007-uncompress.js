@@ -41,10 +41,6 @@ const uncompress = (str) => {
   return result.join('');
 };
 
-module.exports = {
-  uncompress,
-};
-
 /* Notes
 - Set result to array instead of string to make it truly O(n*m)
 */
