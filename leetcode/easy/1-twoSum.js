@@ -17,11 +17,12 @@ const twoSum = (nums, target) => {
     if(typeof(hash[num]) !== 'undefined') return [hash[num], i];
     hash[nums[i]] = i;
   }
-   return [];
+  return [];
 }
 
 // Time: O(n^2)
 // Space: O(1)
+
 // const twoSum = (nums, target) => {
 //   for (let i = 0; i < nums.length; i++) {
 //     for (let j = i + 1; j < nums.length; j++) {
