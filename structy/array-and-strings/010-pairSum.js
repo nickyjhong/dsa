@@ -46,6 +46,6 @@ const pairSum = (numbers, targetSum) => {
   return result;
 };
 
-/* Notes:
+/* Notes
 - Hash map key is value of number and value is the index
 */
