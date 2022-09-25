@@ -11,12 +11,14 @@
 
 const twoSum = (nums, target) => {
   let hash = {};
-  for(let i = 0; i < nums.length; i++){
+  for (let i = 0; i < nums.length; i++) {
     const num = target - nums[i];
-    if(typeof(hash[num]) !== 'undefined') return [hash[num], i];
-    hash[nums[i]] = i;
+    if (hash[num] !== undefined) {
+        return [hash[num], i]
+    } else {
+        hash[nums[i]] = i;   
+    }
   }
-  return [];
 }
 
 // Time: O(n^2)
