@@ -48,7 +48,7 @@ const reverseList = (head, prev = null) => {
   return reverseList(next, head);
 }
 
-/* Notes:
+/* Notes
 - Use three pointers for iterative (current, previous, next)
   - Previous is first set to null because there is nothing before head (current)
 */
