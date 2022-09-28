@@ -5,6 +5,7 @@
 | Number                                                         | Name                                                 | Strategy                  |
 | -------------------------------------------------------------- | ---------------------------------------------------- | ------------------------- |
 | [1](https://leetcode.com/problems/two-sum/)                    | [twoSum](./easy/1-twoSum.js)                         | Hashmap with complements  |
+| [9](https://leetcode.com/problems/palindrome-number/)          | [palindromeNumber](./easy/9-palindromeNumber.js)     | For loop, math :(         |
 | [20](https://leetcode.com/problems/valid-parentheses/)         | [validParentheses](./easy/20-validParentheses.js)    | Stack                     |
 | [206](https://leetcode.com/problems/reverse-linked-list/)      | [reverseLinkedList](./easy/206-reverseLinkedList.js) | Linked list               |
 | [242](https://leetcode.com/problems/valid-anagram/)            | [validAnagram](./easy/242-validAnagram.js)           | Hashmap frequency counter |

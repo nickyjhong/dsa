@@ -9,11 +9,8 @@
 // Input: s = "()"
 // Output: true
 
-// Input: s = "()[]{}"
-// Output: true
-
-// Input: s = "(]"
-// Output: false
+// Time: O(n)
+// Space: O(n)
 
 const isValid = (s) => {
   let stack = [];
