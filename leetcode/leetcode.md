@@ -6,6 +6,7 @@
 | ----------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------ |
 | [1](https://leetcode.com/problems/two-sum/)                             | [twoSum](./easy/1-twoSum.js)                                    | Hashmap with complements       |
 | [9](https://leetcode.com/problems/palindrome-number/)                   | [palindromeNumber](./easy/9-palindromeNumber.js)                | For loop, math :(              |
+| [14](https://leetcode.com/problems/longest-common-prefix/)              | [longestCommonPrefix](./easy/14-longestCommonPrefix.js)         | For loop                       |
 | [20](https://leetcode.com/problems/valid-parentheses/)                  | [validParentheses](./easy/20-validParentheses.js)               | Stack                          |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [removeDuplicatesFromSortedList](./easy/83-deleteDuplicates.js) | If/else                        |
 | [125](https://leetcode.com/problems/valid-palindrome/)                  | [validPalindrome](./easy/125-validPalindrome.js)                | Regex (filter), clone, reverse |
