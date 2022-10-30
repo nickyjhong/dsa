@@ -9,6 +9,7 @@
 | [14](https://leetcode.com/problems/longest-common-prefix/)              | [longestCommonPrefix](./easy/14-longestCommonPrefix.js)         | For loop                       |
 | [20](https://leetcode.com/problems/valid-parentheses/)                  | [validParentheses](./easy/20-validParentheses.js)               | Stack                          |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [removeDuplicatesFromSortedList](./easy/83-deleteDuplicates.js) | If/else                        |
+| [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   | [bestTimeToBuyAndSellStock](./easy/121-maxProfit.js)            | Sliding Window                 |
 | [125](https://leetcode.com/problems/valid-palindrome/)                  | [validPalindrome](./easy/125-validPalindrome.js)                | Regex (filter), clone, reverse |
 | [206](https://leetcode.com/problems/reverse-linked-list/)               | [reverseLinkedList](./easy/206-reverseLinkedList.js)            | Linked list                    |
 | [217](https://leetcode.com/problems/contains-duplicate/)                | [containsDuplicate](./easy/217-containsDuplicate.js)            | For loop                       |
