@@ -24,7 +24,7 @@ const isValid = (s) => {
 
   if (s.length % 2 === 1) return false;
 
-  // iterate through values of
+  // iterate through characters of s
   for (let char of s) {
     // if the current char is a KEY in brackets (is an opener)
     if (char in brackets) {

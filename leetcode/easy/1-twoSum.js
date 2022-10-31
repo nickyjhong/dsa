@@ -14,9 +14,9 @@ const twoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i++) {
     const num = target - nums[i];
     if (hash[num] !== undefined) {
-        return [hash[num], i]
+      return [hash[num], i]
     } else {
-        hash[nums[i]] = i;   
+      hash[nums[i]] = i;   
     }
   }
 }
