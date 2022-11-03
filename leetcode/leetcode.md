@@ -17,4 +17,5 @@
 | [412](https://leetcode.com/problems/fizz-buzz/)                         | [fizzBuzz](./easy/412-fizzBuzz.js)                              | If/else                        |
 | [724](https://leetcode.com/problems/find-pivot-index/)                  | [findPivotIndex](./easy/724-findPivotIndex.js)                  | For loop, If/else              |
 | [733](https://leetcode.com/problems/flood-fill/)                        | [floodFill](./easy/733-floodFill.js)                            | Islands, DFS, Recursion        |
+| [977](https://leetcode.com/problems/squares-of-a-sorted-array/)         | [sortedSquares](./easy/977-squaresOfASortedArray.js)            | Two pointers                   |
 | [1480](https://leetcode.com/problems/running-sum-of-1d-array/)          | [runningSum](./easy/1480-runningSum.js)                         | For loop                       |
