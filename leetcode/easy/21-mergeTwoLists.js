@@ -11,11 +11,11 @@
 // Space: O(1)
 
 const mergeTwoLists = (list1, list2) => {
-  // Need a dummy node to start
+  // need a dummy node to start
   let dummy = new ListNode();
   let tail = dummy;
 
-  // While both list1 and list2 have nodes
+  // while both list1 and list2 have nodes
   while (list1 && list2) {
     if (list1.val <= list2.val) {
       tail.next = list1;
@@ -26,9 +26,9 @@ const mergeTwoLists = (list1, list2) => {
     }
     tail = tail.next;
   }
-  /* This means either list1 or list2 or both no longer have nodes
+  /* this means either list1 or list2 or both no longer have nodes
   If list1 OR list2 no longer have nodes, merge the rest of the list*/
-  
+
   // tail.next = list1 || list2
   if (list1) dummy.next = list1;
   if (list2) dummy.next = list2;
