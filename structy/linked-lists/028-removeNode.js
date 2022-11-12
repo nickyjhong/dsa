@@ -25,6 +25,7 @@
 
 // removeNode(a, "c"); // a -> b -> d -> e -> f
 
+// n = number of nodes
 // Time: O(n)
 // Space: O(1)
 
@@ -35,8 +36,7 @@ const removeNode = (head, targetVal) => {
   let current = head;
   while (current !== null) {
     if (current.val === targetVal) {
-      let next = current.next;
-      prev.next;
+      prev.next = current.next;
       return head;
     }
     prev = current;
