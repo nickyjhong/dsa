@@ -31,7 +31,7 @@
 // JavaScript does not have a native queue data structure that is maximally efficient.
 
 const breadthFirstValues = (root) => {
-  if (root === null) return null;
+  if (root === null) return [];
   let queue = [ root ];
   let result = [];
   
