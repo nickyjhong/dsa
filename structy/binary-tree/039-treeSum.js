@@ -22,7 +22,7 @@
 
 // treeSum(a); // -> 21
 
-// DEPTH FIRST
+// DFS
 // n = number of nodes
 // Time: O(n)
 // Space: O(n)
@@ -32,7 +32,7 @@ const treeSum = (root) => {
   return root.val + treeSum(root.left) + treeSum(root.right)
 };
 
-// BREADTH FIRST
+// BFS
 // n = number of nodes
 // Time: O(n)
 // Space: O(n)

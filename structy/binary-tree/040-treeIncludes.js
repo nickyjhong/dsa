@@ -22,7 +22,7 @@
 
 // treeIncludes(a, "e"); // -> true
 
-// DEPTH FIRST
+// DFS
 // n = number of nodes
 // Time: O(n)
 // Space: O(n)
@@ -33,7 +33,7 @@ const treeIncludes = (root, target) => {
   return treeIncludes(root.left, target) || treeIncludes(root.right, target)
 }
 
-// BREADTH FIRST
+// BFS
 // n = number of nodes
 // Time: O(n)
 // Space: O(n)
