@@ -10,6 +10,7 @@
 | [20](https://leetcode.com/problems/valid-parentheses/)                  | [validParentheses](./easy/20-validParentheses.js)               | Stack                          |
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/)             | [mergeTwoSortedLists](./easy/21-mergeTwoLists.js)               | Linked list                    |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [removeDuplicatesFromSortedList](./easy/83-deleteDuplicates.js) | If/else                        |
+| [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)      | [maximumDepthOfBinaryTree](./easy/104-maxDepth.js)              | DFS Recursion                  |
 | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   | [bestTimeToBuyAndSellStock](./easy/121-maxProfit.js)            | Sliding Window                 |
 | [125](https://leetcode.com/problems/valid-palindrome/)                  | [validPalindrome](./easy/125-validPalindrome.js)                | Regex (filter), clone, reverse |
 | [141](https://leetcode.com/problems/linked-list-cycle/)                 | [linkedListCycle](./easy/141-hasCycle.js)                       | Fast and slow pointers         |
