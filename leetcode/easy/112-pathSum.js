@@ -11,8 +11,13 @@
 const hasPathSum = (root, targetSum) => {
   if (root === null) return false;
   if (root.left === null && root.right === null) return targetSum === root.val;
-  return (
-    hasPathSum(root.left, targetSum - root.val) ||
-    hasPathSum(root.right, targetSum - root.val)
+  return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val
   );
 };
+
+const hasPathSum = (root, targetSum) => {
+  if (root === null) return false;
+  targetSum -= root.val
+  if (root.left === null && root.right === null) return targetSum === 0
+  return hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum)
+}
