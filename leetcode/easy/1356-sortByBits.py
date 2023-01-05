@@ -4,10 +4,8 @@ def sortByBits(arr):
 
   # Create a tuple for each number in the arr - (count of number of 1 bits, number)
   arr = [(bin(num).count('1'), num) for num in arr]
-  print(arr)
   # Sort the array
   arr.sort()
-  print(arr)
   # Create and return a list of the 1st index in each tuple
   return [i[1] for i in arr]
 
