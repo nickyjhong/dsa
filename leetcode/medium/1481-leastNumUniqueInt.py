@@ -15,3 +15,18 @@ def findLeastNumOfUniqueInt(arr, k):
       break
 
   return len(numCount) - removed
+
+####
+
+from collections import Counter
+
+def findLeastNumOfUniqueInt(arr, k):
+  count = Counter(arr)
+
+  for ele, freq in count.items():
+    count[ele] = max(0, freq - k)
+    k -= freq - count[ele]
+    if k <= 0:
+      break
+
+  return len([ele for ele, freq in count.items() if freq > 0])
